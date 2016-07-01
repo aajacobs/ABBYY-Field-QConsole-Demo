@@ -15,7 +15,7 @@ suspicious characters.
 The URLs for the image and the XML file that defines the fields are available in the "image" and "schema" variables below.
 
 # Usage
-To use this demo, you need to first get a username and password from https://cloud.ocrsdk.com/Account/Register/?skipIfLoggedIn=true
+To use this demo, you need to first get a username and password from https://cloud.ocrsdk.com/Account/Register/?skipIfLoggedIn=true.
 As a part of creating an account, you will also create what ABBYY refers to as an "application".  This application name is the username
 you should use, along with the password you specified.  
 
