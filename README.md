@@ -7,9 +7,9 @@ structured text.
 
 For this to work, you need to define areas on the form for ABBYY to analyze.  This structure is captured in an xml file, and is explained in
 more detail on this page: http://ocrsdk.com/documentation/apireference/processFields/  As you would expect, the OCR process is not perfect.
-This file uses a demo .tif provided by ABBYY, and you'll notice some of the information is incorrectly OCR'd.  However, ABBYY flags characters
-as "suspicious" that it believes it could have gotton wrong.  This demo ignores that data, but to look at it, uncomment the last line to see 
-the full XML response body.  One could obviously build something to have a human verify this informatoin, paying particular attnetion to the 
+This file references a demo .tif provided by ABBYY, and you'll notice some of the information is incorrectly OCR'd.  However, ABBYY flags characters
+as "suspicious" that it believes it could have gotten wrong.  This demo doesn't show the suspicous data, but to look at it, uncomment the last line to see 
+the full XML response body that includes it.  One could obviously build something to have a human verify this information, paying particular attnetion to the 
 suspicious characters. 
 
 The URLs for the image and the XML file that defines the fields are available in the "image" and "schema" variables below.
